@@ -1,7 +1,7 @@
 # PathFinding
 
 ## Usage
-work with python2 or python3
+work with python2
 
 ### [1] edit the numberList in the pathFinding_7x7.py
 ```
@@ -19,7 +19,20 @@ the length of numberList must be 3x3=9, 4x4=16, 25, 36, 49 .....
 3 = end ponit
 ```
 
-### [2] python pathFinding_7x7.py
+### [2] select a seacrh algorithm (DFS, BFS, greedy, aStar)
+```
+pathFinding_7x7.py:
+    path = depthFirstSearch(problem)
+    # path = breadthFirstSearch(problem)
+    # path = greedySearch(problem)
+    # path = aStarSearch(problem)
+
+pathFinding_nxn.py
+    # path = xfsSearch(problem, 'bfs')    # 'bfs' or 'dfs'
+    path = aStarSearch(problem, distHeuristic)
+```
+
+### [3] python pathFinding_7x7.py
 ```
 ========================================
 Need 9 moves to solve this puzzle: ('right', 'right', 'down', 'right', 'right', 'right', 'down', 'left', 'down')
@@ -124,6 +137,7 @@ move#9: down
 |               |
 -----------------
 ```
+
 ## Reference
 UC Berkeley CS188 Pacman AI projects
 
