@@ -19,7 +19,7 @@ the length of numberList must be 3x3=9, 4x4=16, 25, 36, 49 .....
 3 = end ponit
 ```
 
-### [2] select a seacrh algorithm (DFS, BFS, greedy, aStar)
+### [2] select a search algorithm (DFS, BFS, greedy, aStar)
 ```
 pathFinding_7x7.py:
     path = depthFirstSearch(problem)
